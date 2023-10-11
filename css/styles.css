@@ -1,3 +1,22 @@
+.link {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
 .header-nav-logo {
-    color: navy ;
+    color: #2E2F42 ;
+}
+body{
+    font-family:'Roboto', sans-serif;
+    color: #2E2F42;   
+}
+
+.logotype {
+
+}
+
+.logotype-span {
+    
 }
