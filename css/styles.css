@@ -32,7 +32,7 @@ body{
     color: var(--NAVY-BLUE, #2E2F42);
 }
 /* Body Medium */
-.menu-item {    
+.menu-link {    
    font-size: 16px;
    font-weight: 500;
    line-height: 1.5; /* 150% */
@@ -40,11 +40,11 @@ body{
    color: var(--NAVY-BLUE, #2E2F42);
 }
 
-.menu-link:hover,
-.menu-link:focus {
-    color: #404bbf)
-}
 /* Body */
+.menu-list {
+    font-style: normal;
+}
+
 .menu-link-contacts {    
    font-size: 16px;
    font-weight: 400;
@@ -52,6 +52,14 @@ body{
    letter-spacing: 0.02em;
    color: var(--SLATE, #434455);
 }
+
+.menu-link-contacts:hover,
+.menu-link-contacts:focus,
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--OCEAN, #404BBF);
+}
+
 /*  HERO SECTION*/
 .hero-images {
     background-color: #2E2F42;
@@ -74,6 +82,11 @@ body{
     letter-spacing: 0.04em;
     color: var(--WHITE, #FFFFFF);
     background-color: #4D5AE5
+    }
+
+    .hero-images-title-button:hover,
+    .hero-images-title-button:focus {
+        background-color: #404BBF;
     }
     /* Header 3 */
 
@@ -166,7 +179,7 @@ body{
     }
 
     .logo-link {
-        font-family: Raleway;
+        font-family:"Raleway", sans-serif;
         font-size: 18px;
         font-weight: 700;
         line-height: 1.17; /* 116.667% */
