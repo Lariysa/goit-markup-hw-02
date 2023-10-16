@@ -50,7 +50,6 @@ body{
    font-weight: 400;
    line-height: 1.5; /* 150% */
    letter-spacing: 0.02em;
-   color: var(--SLATE, #434455);
 }
 
 .menu-link-contacts:hover,
@@ -156,7 +155,6 @@ body{
 
     .portfolio-tab {
        font-size: 20px;
-       font-style: normal;
        font-weight: 500;
        line-height: 1.2; /* 120% */
        letter-spacing: 0.02em;
@@ -168,7 +166,6 @@ body{
        font-weight: 400;
        line-height: 1.5; /* 150% */
        letter-spacing: 0.02em;
-       color: var(--SLATE, #434455);
     }
 
     .footer-main {
